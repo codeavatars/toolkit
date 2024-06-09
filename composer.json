@@ -1,0 +1,26 @@
+{
+	"name" : "codeavatar/toolkit",
+	"description" : "PHP Development Toolkit",
+	"type" : "library",
+	"homepage" : "https://www.codeavatar.vip/doc/toolkit",
+	"license" : "Apache-2.0",
+	"authors" : [{
+			"name" : "codeavatar",
+			"email" : "codeavatar@aliyun.com",
+			"homepage" : "https://www.codeavatar.vip",
+			"role" : "programmer"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"codeavatar\\toolkit" : "src"
+		}
+	},
+	"keywords" : [
+		"toolkit"
+	],
+	"require" : {
+		"php" : ">=7.4.0",
+		"topthink/framework" : "^6.1.0"
+	}
+}
